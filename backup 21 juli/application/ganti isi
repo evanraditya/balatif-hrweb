@@ -1,0 +1,10 @@
+<div class="form-group row">
+                                <label for="TanggalResign" class="col-sm-6 col-form-label">TanggalResign</label>
+                                <div class="col-sm-12">
+                                    <input type="hidden" class="form-control" id="KaryawanId" name="KaryawanId" value="<?=$data_employee->KaryawanId; ?>">
+                                    <input readonly class="form-control-plaintext"  class="form-control" id="TanggalResign" name="TanggalResign" value="<?=$data_employee->TanggalResign; ?>">
+                                    <small class="text-danger">
+                                        <?php echo form_error('TanggalResign') ?>
+                                    </small>
+                                </div>
+                            </div>
